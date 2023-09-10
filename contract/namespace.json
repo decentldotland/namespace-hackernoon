@@ -1,0 +1,9 @@
+{
+	"users": {},
+	"counter": 0,
+	"molecule_endpoints": {
+		"evm": "http://evm.molecule.sh",
+
+	},
+	"signatures": []
+}

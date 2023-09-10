@@ -1,0 +1,23 @@
+{
+  "name": "hn-ns",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "Repository for the HackerNoon Name Service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decentldotland/namespace-hackernoon.git"
+  },
+  "keywords": [
+    "hackernoon"
+  ],
+  "author": "charmful0x",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/decentldotland/namespace-hackernoon/issues"
+  },
+  "homepage": "https://github.com/decentldotland/namespace-hackernoon#readme"
+}
