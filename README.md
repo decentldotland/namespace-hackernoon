@@ -11,7 +11,7 @@
 
 ### 1- Contract Interaction
 
-#### contract: https://api.mem.tech/api/state/VdhC_g6vI8QbRebqP1MROEYBIJCVCvhgzNbiqi0yBe4
+#### contract: https://api.mem.tech/api/state/nLK2aIyXbgxkT0-r6azRCrIaX4FJ467AEDznCeOTtcU
 
 Regarding the `sig` interaction (input) property, it's the following string: `hackernoon::${state.counter}` then that string (message) get signed using the `caller` address.
 
@@ -19,7 +19,7 @@ Regarding the `sig` interaction (input) property, it's the following string: `ha
 
 async function writeContract() {
   try {
-    const functionId = "VdhC_g6vI8QbRebqP1MROEYBIJCVCvhgzNbiqi0yBe4";
+    const functionId = "nLK2aIyXbgxkT0-r6azRCrIaX4FJ467AEDznCeOTtcU";
     const inputs = [
       {
         input: {
@@ -57,7 +57,7 @@ async function writeContract() {
 ```js
 async function getContractState() {
   try {
-    const functionId = "VdhC_g6vI8QbRebqP1MROEYBIJCVCvhgzNbiqi0yBe4";
+    const functionId = "nLK2aIyXbgxkT0-r6azRCrIaX4FJ467AEDznCeOTtcU";
     const state = (
       await axios.get(`https://api.mem.tech/api/state/${functionId}`)
     )?.data;
