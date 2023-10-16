@@ -18,6 +18,21 @@ export async function handle(state, action) {
     return { state };
   }
 
+  if (input.function === "unlink") {
+    const { caller, sig } = input;
+
+    const encodedMessage = btoa(`hackernoon::${state.counter}`);
+    await _moleculeSignatureVerification(caller, encodedMessage, sig);
+    state.counter += 1;
+    const profile = await _resolveHackernoonAddr(caller);
+    const uid = profile["uid"]
+    ContractAssert(uid in state.users, "ERROR_USER_NOT_EXISTING");
+
+    delete state.users[uid];
+
+    return { state };
+  }
+
   async function _moleculeSignatureVerification(caller, message, signature) {
     try {
       ContractAssert(
