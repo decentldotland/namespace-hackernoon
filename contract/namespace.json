@@ -1,9 +1,9 @@
 {
-	"users": {},
-	"counter": 0,
-	"molecule_endpoints": {
-		"evm": "http://evm.molecule.sh",
-
-	},
-	"signatures": []
+  "users": {},
+  "counter": 0,
+  "molecule_endpoints": {
+    "evm": "http://evm.molecule.sh",
+    "hackernoon": "https://molext1.com/hackernoon"
+  },
+  "signatures": []
 }
