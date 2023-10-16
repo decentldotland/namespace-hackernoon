@@ -11,7 +11,7 @@
 
 ### 1- Contract Interaction
 
-#### contract: https://api.mem.tech/api/state/nLK2aIyXbgxkT0-r6azRCrIaX4FJ467AEDznCeOTtcU
+#### contract: https://api.mem.tech/api/state/3xJpkOVGR4ov-zZTyS4gDhCa0yKHMdj7sw6Fgmd3wFw
 
 Regarding the `sig` interaction (input) property, it's the following string: `hackernoon::${state.counter}` then that string (message) get signed using the `caller` address.
 
