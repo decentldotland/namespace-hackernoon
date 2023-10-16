@@ -1,6 +1,6 @@
 {
-  "name": "hn-ns",
-  "version": "0.0.1",
+  "name": "namespace-hackernoon",
+  "version": "0.0.2",
   "type": "module",
   "description": "Repository for the HackerNoon Name Service",
   "main": "index.js",
