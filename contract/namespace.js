@@ -13,6 +13,8 @@ export async function handle(state, action) {
     state.users[profile["uid"]] = {
       eoa: caller,
       handle: `${profile.handle}.hackernoon`,
+      created_at: EXM.getDate().getTime(),
+      txid: SmartWeave.transaction.id,
     };
 
     return { state };
